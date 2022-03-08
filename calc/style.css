@@ -29,14 +29,3 @@ body {
 .filler {
     opacity: 0;
 }
-
-p {
-    padding: 5px;
-    color: white;
-    border: 1px solid white;
-    border-radius: 0.25em;
-    background-color: rgb(46, 46, 46);
-    font-family: sans-serif;
-    position: absolute;
-    top: 225px;
-}
