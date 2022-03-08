@@ -1,0 +1,42 @@
+body {
+    display:flex;
+    justify-content: center;
+    background-color: silver;
+    /* #2C2F33 */
+}
+
+.wrapper {
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#paragraph {
+    position: absolute;
+    top: 10;
+    text-align: right;
+    background-color: white;
+    height: 15px;
+    width: 100px;
+    outline: 1px solid black;
+}
+
+.filler {
+    opacity: 0;
+}
+
+p {
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.25em;
+    background-color: rgb(46, 46, 46);
+    font-family: sans-serif;
+    position: absolute;
+    top: 225px;
+}
